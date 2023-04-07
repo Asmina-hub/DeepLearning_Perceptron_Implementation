@@ -6,6 +6,7 @@ If conda is not present follow methods to get conda in git bash
 1.got to anaconda folder>anaconda64>etc>profile.d>conda.csh
 2.open gitbash in that folder and type
 echo ".{PWD}/conda.sh" >> ~ /.bashrc
+try conda init
 3.then type conda activate
 this will activate your conda
 >>conda activate ./env
